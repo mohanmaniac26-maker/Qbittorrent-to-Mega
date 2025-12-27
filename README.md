@@ -40,14 +40,17 @@ This project is intended for **educational purposes only**. Users are responsibl
 * MEGA account credentials
 * Torrent client/library support
 * Server or VPS environment
+* Python and packages
 
----
+###Additional requirement 
 
-If you want, I can also:
+Python 3.10+ installed
 
-* Make it **more beginner-friendly**
-* Rewrite it for **SEO / GitHub discoverability**
-* Add a **short one-line description**
-* Create a **full README.md** with install steps
+Pip working (python -m pip --version) so you can install packages
 
-Just tell me 👍
+python-telegram-bot for telegram and telegram.ext.
+​
+qbittorrent-api for from qbittorrentapi import Client.​
+
+mega.py or similar package (often pip install mega.py) for from mega import Mega
+
